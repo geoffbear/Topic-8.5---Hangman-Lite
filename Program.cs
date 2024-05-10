@@ -44,8 +44,6 @@ namespace Topic_8._5___Hangman_Lite
                     Console.Write("Guess here: ");
                     guessletter = Console.ReadLine().ToUpper().Trim();
 
-                    if (guessletter.ToUpper() == "C")
-                    {
 
                     }
 
@@ -84,48 +82,9 @@ namespace Topic_8._5___Hangman_Lite
             {
                 Console.WriteLine("uh, bye then *waves*");
                 Thread.Sleep(500);
-                Hangman8();
             }
         }
 
-        static void Hangman1()
-        {
-            Console.WriteLine("  +---+\r\n  |   |\r\n      |\r\n      |\r\n      |\r\n      |\r\n=========");
-        }
-        static void Hangman2()
-        {
-            Console.WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n      |\r\n      |\r\n      |\r\n=========");
-        }
-
-        static void Hangman3()
-        {
-            Console.WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n  |   |\r\n      |\r\n      |\r\n=========");
-        }
-
-        static void Hangman4()
-        {
-            Console.WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|   |\r\n      |\r\n      |\r\n=========");
-        }
-
-        static void Hangman5()
-        {
-            Console.WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|\\  |\r\n      |\r\n      |\r\n=========");
-        }
-
-        static void Hangman6()
-        {
-            Console.WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|\\  |\r\n /    |\r\n      |\r\n=========");
-        }
-
-        static void Hangman7()
-        {
-            Console.WriteLine("  +---+\r\n  |   |\r\n  O   |\r\n /|\\  |\r\n / \\  |\r\n      |\r\n=========");
-        }
-
-        static void Hangman8()
-        {
-            Console.WriteLine("  +---+\r\n      |\r\n      | \r\n \\O/  |\r\n  |   |\r\n / \\  |\r\n=========");
-        }
 
         public static void HangmanGuesses(int guesses)
         {
@@ -166,7 +125,6 @@ namespace Topic_8._5___Hangman_Lite
                     case 8:
                     Console.WriteLine("");
                     break;
-
             }
         }
     }
